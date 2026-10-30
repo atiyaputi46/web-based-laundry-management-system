@@ -1,0 +1,19 @@
+Bu# File sistem
+.DS_Store
+Thumbs.db
+
+# Environment dan konfigurasi rahasia
+.env
+.env.*
+
+# Folder dependency
+/vendor/
+/node_modules/
+
+# File sementara
+*.log
+*.tmp
+
+# File upload pengguna
+/uploads/*
+!/uploads/.gitkeep
